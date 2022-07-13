@@ -1,0 +1,75 @@
+body {
+    background-size: cover;
+    margin: 0;
+    background-image: url(imgs/background-curiosidades.jpg);
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 600ms linear; 
+}
+
+a:hover {
+    color: rgb(95, 31, 63);
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+header {
+    background-color: rgba(0, 0, 0, .95);
+    box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+    padding-top: 1em;
+    text-align: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgrey;
+    border-bottom: 2px lightseagreen solid;
+    margin-bottom: 2em;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+section {
+
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    border-radius: 2%;
+    margin-bottom: 2em;
+    width: 40%;
+    box-sizing: border-box;
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 3px rgb(46, 158, 243) solid;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 11%;
+}
